@@ -1,0 +1,43 @@
+foreground's connection_handler queries our pid (3370439) on sock151c90f88050.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_132_59_group_4800' will not be written.
+Done.
+Sending results back...
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'PHYS-235'.
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+Sending results back...
+Done.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 10.000000.
+DEBUG: super_thread_runtime = 4.7349499999999995.
+DEBUG: physical_memory_usage = 76.6.
+DEBUG: peak_physical_memory_usage = 76.6.
+DEBUG: list_runtime_report = {{{Logic Structuring} {1.48 1.48 1.50 1.50} 13} {{Virtual Mapping} {4.14 4.14 1.31 1.31} 14} {{Core Map} {0.06 9.25 0.06 4.01} 12} {Mapper {0.00 10.00 0.00 4.77} 0} {{Technology Mapping} {3.58 3.58 1.14 1.14} 15} {{Global Incremental} {0.75 0.75 0.76 0.76} 19}}.
+DEBUG: runtime_adjustment_value = 5.2650500000000005.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 10.000000.
+DEBUG: super_thread_runtime = 4.7349499999999995.
+DEBUG: physical_memory_usage = 76.6.
+DEBUG: peak_physical_memory_usage = 76.6.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 5.2650500000000005.

@@ -1,0 +1,185 @@
+
+ 	 Check Design Report (c)
+	 ------------------- 
+
+  Unresolved References & Empty Modules
+  ------------------------------------- 
+No unresolved references in design 'testdesign'
+
+No empty modules in design 'testdesign'
+
+ Unloaded Pin(s), Port(s)
+ -------------------------
+No unloaded sequential element in 'testdesign'
+
+No unloaded port in 'testdesign'
+
+ Undriven Port(s)/Pin(s)
+ ------------------------
+No undriven combinational pin in 'testdesign'
+
+No undriven sequential pin in 'testdesign'
+
+No undriven hierarchical pin in 'testdesign'
+
+No undriven port in 'testdesign'
+
+ Multidriven Port(s)/Pin(s)
+--------------------------
+
+No multidriven combinational pin in 'testdesign'
+
+No multidriven sequential pin in 'testdesign'
+
+No multidriven hierarchical pin in 'testdesign'
+
+No multidriven ports in 'testdesign'
+
+No multidriven unloaded nets in 'testdesign'
+
+  Constant Pin(s)
+  ----------------
+No constant combinational pin(s) in design 'testdesign'
+
+No constant sequential pin(s) in design 'testdesign'
+
+design 'testdesign' has the following constant input hierarchical pin(s)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[10] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[9] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[8] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[7] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[6] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_130_59/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[10] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[9] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[8] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[7] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[6] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_113_59/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[10] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[9] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[8] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[7] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[6] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_96_59/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[10] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[9] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[8] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[7] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[6] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_79_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_80_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_80_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_80_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_80_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_80_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_80_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_81_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_81_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_81_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_81_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_81_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_81_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_82_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_82_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_82_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_82_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_82_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_82_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_83_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_83_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_83_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_83_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_83_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_83_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_84_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_84_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_84_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_84_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_84_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_84_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_85_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_85_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_85_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_85_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_85_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_85_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_86_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_86_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_86_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_86_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_86_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_86_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_87_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_87_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_87_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_87_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_87_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_87_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_88_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_88_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_88_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_88_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_88_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_88_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_89_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_89_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_89_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_89_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_89_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_89_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_90_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_90_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_90_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_90_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_90_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_90_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_94_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_94_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_94_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_94_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_94_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_94_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_93_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_93_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_93_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_93_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_93_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_93_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_92_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_92_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_92_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_92_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_92_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_92_52/pins_in/B[0] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_91_52/pins_in/B[5] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_91_52/pins_in/B[4] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_91_52/pins_in/B[3] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_91_52/pins_in/B[2] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_91_52/pins_in/B[1] 	 (fanout : 2)
+/designs/testdesign/instances_hier/add_91_52/pins_in/B[0] 	 (fanout : 2)
+Total number of constant hierarchical pins in design 'testdesign' : 134
+
+No constant connected ports in design 'testdesign'
+
+  Done Checking the design.

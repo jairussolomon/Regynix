@@ -1,0 +1,254 @@
+2026/05/14 14:37:45 WARNING This OS does not appear to be a Cadence supported Linux configuration.
+2026/05/14 14:37:45 For more info, please run CheckSysConf in <cdsRoot/tools.lnx86/bin/checkSysConf <productId>
+TMPDIR is being set to /tmp/genus_temp_3364458_cad312vitcc.vit.ac.in_icd17_WryrlC/genus_temp_3365038_cad312vitcc.vit.ac.in_icd17_SULJJT
+
+Loading tool scripts...Using chipware dir from user defined $CW_DIR environment variable set to /home/install/GENUS211/tools.lnx86/lib/chipware
+Using chipware simulation model dir from user defined $CW_DIR_SIM environment variable set to /home/install/GENUS211/tools.lnx86/lib/chipware/sim
+
+Finished loading tool scripts (4 seconds elapsed).
+
+WARNING: This version of the tool is 1421 days old.
+
+Threads Configured:8
+
+  Message Summary for Library all 5 libraries:
+  ********************************************
+  Missing a function attribute in the output pin definition. [LBR-518]: 5
+  Missing library level attribute. [LBR-516]: 2
+  ********************************************
+ 
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'slow_1v0' and 'pll'.
+        : This is a common source of delay calculation confusion and should be avoided.
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'slow_1v0' and 'CDK_S128x16'.
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'slow_1v0' and 'CDK_S256x16'.
+Warning : Libraries have inconsistent nominal operating conditions. In the Liberty library, there are attributes called nom_voltage, nom_process and nom_temperature. Genus reports the message, if the respective values of the 2 given .libs differ. [LBR-38]
+        : The libraries are 'slow_1v0' and 'CDK_R512x16'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 0.900000, 125.000000) in library 'slow.lib'.
+        : The nominal operating condition is represented, either by the nominal PVT values specified in the library source (via nom_process,nom_voltage and nom_temperature respectively), or by the default PVT values (1.0,1.0,1.0).
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.080000, 125.000000) in library 'pll.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.080000, 125.000000) in library 'CDK_S128x16.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.080000, 125.000000) in library 'CDK_S256x16.lib'.
+Info    : Created nominal operating condition. [LBR-412]
+        : Operating condition '_nominal_' was created for the PVT values (1.000000, 1.080000, 125.000000) in library 'CDK_R512x16.lib'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'CDK_R512x16/CDK_R512x16'.
+        : Specify a valid area value for the libcell.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'CDK_S128x16/CDK_S128x16'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'CDK_S256x16/CDK_S256x16'.
+Warning : Libcell has no area attribute.  Defaulting to 0 area. [LBR-43]
+        : Assigning 0 area to library cell 'pll/pll'.
+Warning : Found libraries with and without pg_pin construct. [LBR-12]
+        : Libraries with and without pg_pin construct have been loaded.
+        : This can lead to issues later in the flow.
+  Setting attribute of root '/': 'library' = /home/icd17/23BVD1040/genus_rak/retiming/Retiming_RAK/LIB/slow.lib /home/icd17/23BVD1040/genus_rak/retiming/Retiming_RAK/LIB/pll.lib /home/icd17/23BVD1040/genus_rak/retiming/Retiming_RAK/LIB/CDK_S128x16.lib /home/icd17/23BVD1040/genus_rak/retiming/Retiming_RAK/LIB/CDK_S256x16.lib /home/icd17/23BVD1040/genus_rak/retiming/Retiming_RAK/LIB/CDK_R512x16.lib
+  Setting attribute of root '/': 'force_init_mmmc_parasitics' = true
+  Libraries have 324 usable logic and 126 usable sequential lib-cells.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_131_59_group_4798' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_135_59_group_4803' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_139_59_group_4807' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_145_59_group_4813' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_131_59_group_4798' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_135_59_group_4803' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_139_59_group_4807' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_145_59_group_4813' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'explore_one_arch_for_downsize' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'explore_one_arch_for_downsize' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'explore_one_arch_for_downsize' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'explore_one_arch_for_downsize' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_142_59_group_4810' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_141_59_group_4809' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_136_59_group_4804' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'csa_tree_add_131_59_group_4798' will not be written.
+Done.
+DEBUG: runtime_offset = 4.0.
+DEBUG: runtime = 52.000000.
+DEBUG: super_thread_runtime = 37.043899.
+DEBUG: physical_memory_usage = 607.9.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {{{Logic Structuring} {10.30 10.30 10.41 10.41} 13} {{Virtual Mapping} {16.23 16.23 6.87 6.87} 14} {{Core Map} {1.80 42.36 1.81 27.54} 12} {Mapper {0.00 43.39 0.00 28.57} 0} {{Technology Mapping} {14.04 14.04 8.44 8.44} 15} {{Global Incremental} {1.02 1.02 1.03 1.03} 19}}.
+DEBUG: runtime_adjustment_value = 14.956100999999999.
+DEBUG: runtime_offset = 4.0.
+DEBUG: runtime = 52.000000.
+DEBUG: super_thread_runtime = 37.043899.
+DEBUG: physical_memory_usage = 607.9.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 14.956100999999999.
+DEBUG: runtime_offset = 4.0.
+DEBUG: runtime = 52.000000.
+DEBUG: super_thread_runtime = 37.043899.
+DEBUG: physical_memory_usage = 382.6.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 14.956100999999999.
+DEBUG: runtime_offset = 4.0.
+DEBUG: runtime = 52.000000.
+DEBUG: super_thread_runtime = 37.043899.
+DEBUG: physical_memory_usage = 382.6.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 14.956100999999999.
+DEBUG: runtime_offset = 4.0.
+DEBUG: runtime = 52.000000.
+DEBUG: super_thread_runtime = 37.043899.
+DEBUG: physical_memory_usage = 382.6.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 14.956100999999999.
+  Setting attribute of root '/': 'force_init_mmmc_parasitics' = true
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'cb_part_302' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'cb_part_290' will not be written.
+Done.
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'cb_part_286' will not be written.
+Done.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 54.000000.
+DEBUG: super_thread_runtime = 38.354803000000004.
+DEBUG: physical_memory_usage = 540.0.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {{{Logic Structuring} {1.02 1.02 1.04 1.04} 13} {{Virtual Mapping} {1.25 1.25 0.56 0.56} 14} {{Core Map} {0.01 2.28 0.01 1.61} 12} {Mapper {0.00 2.28 0.00 1.61} 0}}.
+DEBUG: runtime_adjustment_value = 15.645196999999998.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 54.000000.
+DEBUG: super_thread_runtime = 38.354803000000004.
+DEBUG: physical_memory_usage = 540.0.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.645196999999998.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 54.000000.
+DEBUG: super_thread_runtime = 38.354803000000004.
+DEBUG: physical_memory_usage = 382.2.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.645196999999998.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 54.000000.
+DEBUG: super_thread_runtime = 38.354803000000004.
+DEBUG: physical_memory_usage = 382.2.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.645196999999998.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 54.000000.
+DEBUG: super_thread_runtime = 38.354803000000004.
+DEBUG: physical_memory_usage = 382.2.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.645196999999998.
+  Setting attribute of root '/': 'force_init_mmmc_parasitics' = true
+Sending results back...
+Info    : Skipping writing out floorplan data. [PHYS-235]
+        : Floorplan data for 'cb_oseq_354' will not be written.
+Done.
+Sending results back...
+Warning : Maximum message print count reached. [MESG-11]
+        : Maximum print count of '20' reached for message 'PHYS-235'.
+Done.
+Sending results back...
+Done.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 55.000000.
+DEBUG: super_thread_runtime = 39.045652000000004.
+DEBUG: physical_memory_usage = 577.1.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {{{Logic Structuring} {0.18 0.18 0.18 0.18} 13} {{Virtual Mapping} {0.27 0.27 0.05 0.05} 14} {{Core Map} {0.00 0.67 0.00 0.37} 12} {Mapper {0.00 0.81 0.00 0.51} 0} {{Technology Mapping} {0.22 0.22 0.12 0.12} 15} {{Global Incremental} {0.14 0.14 0.14 0.14} 19}}.
+DEBUG: runtime_adjustment_value = 15.954348.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 55.000000.
+DEBUG: super_thread_runtime = 39.045652000000004.
+DEBUG: physical_memory_usage = 577.1.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.954348.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 55.000000.
+DEBUG: super_thread_runtime = 39.045652000000004.
+DEBUG: physical_memory_usage = 382.8.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.954348.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 55.000000.
+DEBUG: super_thread_runtime = 39.045652000000004.
+DEBUG: physical_memory_usage = 382.8.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.954348.
+DEBUG: runtime_offset = 0.0.
+DEBUG: runtime = 56.000000.
+DEBUG: super_thread_runtime = 40.045652000000004.
+DEBUG: physical_memory_usage = 382.8.
+DEBUG: peak_physical_memory_usage = 607.9.
+DEBUG: list_runtime_report = {}.
+DEBUG: runtime_adjustment_value = 15.954348.
+
+Lic Summary:
+[14:57:18.021738] Cdslmd servers:5280@cadence:29000@172.16.77.98
+[14:57:18.021746] Feature usage summary:
+
+Failed on application-specific initialization
+Normal exit.

@@ -1,0 +1,187 @@
+Cadence Genus(TM) Synthesis Solution.
+Copyright 2022 Cadence Design Systems, Inc. All rights reserved worldwide.
+Cadence and the Cadence logo are registered trademarks and Genus is a trademark
+of Cadence Design Systems, Inc. in the United States and other countries.
+
+[14:34:01.339306] Configured Lic search path (21.01-s002): 5280@cadence:29000@172.16.77.98
+
+Version: 21.14-s082_1, built Thu Jun 23 02:02:08 PDT 2022
+Options: -log retime.log 
+Date:    Thu May 14 14:34:01 2026
+Host:    cad312vitcc.vit.ac.in (x86_64 w/Linux 4.18.0-553.89.1.el8_10.x86_64) (16cores*64cpus*2physical cpus*INTEL(R) XEON(R) GOLD 6526Y 38400KB) (2112777004KB)
+PID:     3363669
+OS:      Red Hat Enterprise Linux release 8.10 (Ootpa)
+
+
+[14:34:01.434459] Periodic Lic check successful
+[14:34:01.434464] Feature usage summary:
+[14:34:01.434464] Genus_Synthesis
+Checking out license: Genus_Synthesis
+
+
+***********************************************************************************************************
+***********************************************************************************************************
+
+
+
+Loading tool scripts...
+Finished loading tool scripts (5 seconds elapsed).
+
+WARNING: This version of the tool is 1421 days old.
+@genus:root: 1> source r
+File 'r' does not exist.
+@genus:root: 2> source run.tcl
+Sourcing './run.tcl' (Thu May 14 14:34:22 IST 2026)...
+#@ Begin verbose source ./run.tcl
+@file(run.tcl) 1: if {[file exists /proc/cpuinfo]} {
+  sh grep "model name" /proc/cpuinfo
+  sh grep "cpu MHz"    /proc/cpuinfo
+}
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+model name	: INTEL(R) XEON(R) GOLD 6526Y
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 3845.749
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+cpu MHz		: 2800.000
+@file(run.tcl) 5: puts "Hostname : [info hostname]"
+Hostname : cad312vitcc.vit.ac.in
+@file(run.tcl) 10: timestat START
+===========================================
+The RUNTIME after START is 5.000000 secs
+and the MEMORY_USAGE after START is 1037.40 MB
+===========================================
+@file(run.tcl) 15: set_attribute library { ./LIB/slow.lib ./LIB/pll.lib  ./LIB/CDK_S128x16.lib  ./LIB/CDK_S256x16.lib  ./LIB/CDK_R512x16.lib} /
+Error   : The tool is running in common ui mode. [TUI-509] [::unknown]
+        : Command 'set_attribute' is a legacy ui command.
+        : Use set_db/get_db instead or do set_db common_ui false at start of the run.
+#@ End verbose source ./run.tcl
+@genus:root: 3> exit
+
+Lic Summary:
+[14:35:57.340512] Cdslmd servers: cadence
+[14:35:57.340523] Feature usage summary:
+[14:35:57.340523] Genus_Synthesis
+
+Normal exit.
